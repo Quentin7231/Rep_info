@@ -18,6 +18,6 @@ for i in range(n):
         tax=0.2
 
         def get_price_it(self):
-            return self.priceET + (self.priceET*self.tax)/100
+            return self.priceET + (self.priceET*self.tax)
 
     print(Product().get_price_it())
