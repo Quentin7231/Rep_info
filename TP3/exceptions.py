@@ -1,0 +1,2 @@
+class LettreDejaSoumise(Exception):
+    pass
